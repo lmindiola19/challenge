@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" href="assets/logo.svg" />
+    <title>AluraGeek</title>
+  </head>
+  <body>
+    <header>
+      <p class="header_logo">
+        <img src="assets/logo.svg" alt="logo" />AluraGeek
+      </p>
+    </header>
+    <main>
+      <section class="contenedor_1">
+        <h2>MIS PRODUCTOS:</h2>
+        <div class="products_list" data-product></div>
+      </section>
+      <section class="contenedor_2">
+        <h2>AGREGAR<br />PRODUCTO:</h2>
+        <form data-form>
+          <input
+            data-name
+            class="input__nombre"
+            type="text"
+            name="nombre"
+            maxlength="35"
+            placeholder="nombre..."
+            required
+          />
+          <input
+            data-price
+            class="input__precio"
+            type="text"
+            name="precio"
+            id="precio"
+            placeholder="precio..."
+            required
+          />
+          <input
+            data-image
+            class="input__imagen"
+            type="text"
+            name="imagen"
+            placeholder="imagen..."
+            required
+          />
+          <div class="btn__container">
+            <button class="btn btn_submit" type="submit">Enviar</button>
+            <button class="btn btn_reset">Limpiar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="footer_logo">
+        <img src="assets/logo.svg" alt="logo" />AluraGeek
+      </p>
+      <p class="developer">DESARROLADO POR LUIS MINDIOLA</p>
+      <p class="credits">ALURA LATAM- 20024</p>
+    </footer>
+    <script src="./js/formulario.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

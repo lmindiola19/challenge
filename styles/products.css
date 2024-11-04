@@ -1,0 +1,57 @@
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #5d04d9;
+  width: 196px;
+  height: 320px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 3px black;
+  text-align: center;
+}
+
+.card img {
+  width: 145px;
+  height: 268;
+  object-fit: fill;
+  border-radius: 5px;
+  border: solid 3px black;
+}
+
+.card p {
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+}
+
+.product_name {
+  text-align: left;
+  margin-top: 2px;
+  font-weight: 200;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_container p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card_container img {
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
+.btn__borrar__producto {
+  cursor: pointer;
+}

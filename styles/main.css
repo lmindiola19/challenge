@@ -1,0 +1,97 @@
+@import url("./form.css");
+@import url("./products.css");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --primary: #5d04d9;
+}
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+/* Header */
+
+header {
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.header_logo {
+  font-size: 20px;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+h2 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.contenedor_1 {
+  max-width: 758px;
+  padding: 20px;
+  box-shadow: -12px 10px 5.8px 0px #00000040;
+}
+
+.contenedor_2 {
+  max-width: 472px;
+}
+
+/* Footer */
+
+footer {
+  background: #5d04d9;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer_logo {
+  font-size: 20px;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.developer {
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.credits {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  font-weight: 200;
+}
+
+/* Responsividad */
+
+@media (min-width: 430) {
+}

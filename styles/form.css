@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin: auto;
+}
+
+input {
+  padding: 15px;
+  border-radius: 40px;
+  border: solid 2.9px #03318c;
+  color: #03318c;
+}
+
+::placeholder {
+  color: #03318c;
+  font-weight: 900;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.btn__container {
+  display: flex;
+  width: 300px;
+  gap: 10px;
+}
+
+.btn {
+  font-family: "IBM Plex Mono", monospace;
+  width: 164px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn_submit {
+  background: #03318c;
+  color: white;
+}
+
+.btn_reset {
+  border: solid 2.9px #03318c;
+  color: #03318c;
+}
